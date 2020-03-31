@@ -4,7 +4,7 @@ You are the dungeon master : your party of adventurers has slain the dragon, now
 
 Instead of opening all the treasures and share the amount equally, the party has decided to open one treasure at a time : the adventurer keeping the gold he found inside.
 
-But there is a catch! Each treasure has many forms of protection : resistance to physical damage, resistance to spell and resistance to lock picking.
+But there is a catch! Each treasure has many forms of protection : a physical resistance, a spell resistance and a lockpicking resistance.
 
 Each adventurer will try to open the next treasure, if it doesn't succeed, the treasure is magically destroyed!
 
