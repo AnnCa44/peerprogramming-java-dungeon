@@ -1,0 +1,52 @@
+@startuml
+
+title __DUNGEON's Class Diagram__\n
+
+abstract class Adventurer {
+    - gold : int
+    - name : String
+    + Adventurer()
+    + getMoney()
+    + getName()
+    + setMoney()
+    {abstract} ~ open()
+}
+
+class Thief {
+    - dexterity : int
+    + Thief()
+    + open()
+}
+Thief <|-- Adventurer
+
+class Warrior {
+    - strength : int
+    + Warrior()
+    + open()
+}
+Warrior <|-- Adventurer
+
+class Wizard {
+    - intelligence : int
+    + Wizard()
+    + open()
+}
+Wizard <|-- Adventurer
+
+class Dungeon {
+        {static} + main()
+}
+
+class Treasure {
+    - gold : int
+    - physicalResistance : int
+    - pickResistance : int
+    - spellResistance : int
+    + Treasure()
+    + getGold()
+    + getPhysicalResistance()
+    + getPickResistance()
+    + getSpellResistance()
+}
+
+@enduml
