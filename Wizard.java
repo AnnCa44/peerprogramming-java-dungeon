@@ -11,7 +11,7 @@ class Wizard extends Adventurer {
         this.intelligence = randomGenerator.nextInt(10);
     }
     public int getIntelligence() {
-        return this.intelligence ;
+        return this.intelligence;
     }
     
     @Override
